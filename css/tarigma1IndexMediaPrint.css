@@ -1,0 +1,11 @@
+﻿@media print {
+
+    body:before {
+        content: url('../img/banner1.jpg');
+        max-width: 768px;
+    }
+
+    .content {
+        max-height: unset;
+    }
+}
