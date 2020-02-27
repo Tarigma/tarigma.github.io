@@ -356,12 +356,9 @@ body {
 
 footer {
     background-color: #222;
+    color: #fff;
     padding: 60px 0;
 }
-
-    footer p {
-        color: #fff;
-    }
 
 
 /* Footer Secondary 
