@@ -155,22 +155,6 @@
     <!-- Theme JavaScript -->
     <script src="js/tarigma1.js"></script>
 
-    <!-- Visitor InSites -->
-    <script type="text/javascript">
-        var dynamicPixel = function() {
-            var pixelURL = "https://a.remarketstats.com/px/smart/?c=23d134d86e9f98b&seg=";
-            var urlPath = window.location.pathname.substr(1).replace(/\/+$/, '');
-            if (urlPath === "") { urlPath = "home"; }
-            // console.log(urlPath);
-            var segmentValue = urlPath;
-            var script = document.createElement('script');
-            if (pixelURL.indexOf("seg=") === -1) {
-                pixelURL = pixelURL + "seg=";
-            }    script.src = pixelURL + escape(segmentValue);
-            document.getElementsByTagName('script')[0].parentNode.appendChild(script);
-        }();
-    </script>
-
     <!-- HubSpot -->
     <script type="text/javascript" id="hs-script-loader" async defer src="https://js.hs-scripts.com/6251141.js"></script>
 
